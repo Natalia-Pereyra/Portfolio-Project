@@ -3,20 +3,21 @@
   --accent-color: #f7b50e;
   --soft-color: #eff5fb;
   --dark-color: #5c5c5c;
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Poppins", sans-serif;
 }
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--font-heading);
   font-weight: bold;
   font-size: 96px;
 }
 h1,
 h2,
 h3 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--font-heading);
   color: var(--dark-color);
 }
 .header h2 {
-  font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 24px;
 }
@@ -34,10 +35,49 @@ h3 {
 .btn-primary {
   background-color: var(--main-color);
   border: none;
-  font-size: 18px;
-  line-height: 27px;
 }
 .btn-primary:hover {
   background-color: white;
   color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+h2 {
+  font-size: 62px;
+  font-weight: bold;
+}
+.btn-primary-outline {
+  background-color: white;
+  color: var(--main-color);
+  line-height: 27px;
+  border: 1px solid var(--main-color);
+}
+.btn-primary-outline:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+p {
+  font-weight: normal;
+  font-family: var(--font-body);
+  line-height: 30px;
+  color: var(--dark-color);
+}
+@media (max-width: 960px) {
+  .project-description {
+    text-align: center;
+    padding: 0;
+  }
+  h1 {
+    font-size: 45px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .header {
+    padding: 80px 20px;
+  }
+}
+.project-description {
+  padding: 20px;
+  margin-top: 40px;
 }
