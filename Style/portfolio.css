@@ -81,3 +81,14 @@ p {
   padding: 20px;
   margin-top: 40px;
 }
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--font-body);
+}
+.about-section p {
+  font-size: 18px;
+}
