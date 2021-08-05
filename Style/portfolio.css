@@ -76,19 +76,42 @@ p {
   .header {
     padding: 80px 20px;
   }
+  .about-section {
+    text-align: center;
+  }
+  .about-section img {
+    margin: 65px 0px 0px 0px;
+  }
+  .about-section h2 {
+    line-height: 1.5;
+  }
+  .about-description {
+    margin: 0px;
+  }
 }
 .project-description {
   padding: 20px;
   margin-top: 40px;
 }
 .about-section h1 {
-  font-size: 64px;
-  line-height: 80px;
+  font-size: 56px;
+  line-height: 60px;
 }
 .about-section h2 {
   font-size: 18px;
   font-family: var(--font-body);
 }
-.about-section p {
-  font-size: 18px;
+.about-section img {
+  width: 400px;
+  margin-left: 100px;
+}
+.about-section {
+  max-width: 1000px;
+  padding: 160px 20px;
+}
+.about-description {
+  margin-left: 100px;
+}
+.about-section img {
+  margin-left: 70px;
 }
