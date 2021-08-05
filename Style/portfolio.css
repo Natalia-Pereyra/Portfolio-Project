@@ -80,18 +80,19 @@ p {
     text-align: center;
   }
   .about-section img {
-    margin: 65px 0px 0px 0px;
+    margin-top: 65px;
   }
   .about-section h2 {
-    line-height: 1.5;
-  }
-  .about-description {
-    margin: 0px;
+    line-height: 1;
   }
 }
 .project-description {
   padding: 20px;
   margin-top: 40px;
+}
+.about-section {
+  max-width: 1000px;
+  padding: 160px 20px;
 }
 .about-section h1 {
   font-size: 56px;
@@ -103,15 +104,5 @@ p {
 }
 .about-section img {
   width: 400px;
-  margin-left: 100px;
-}
-.about-section {
-  max-width: 1000px;
-  padding: 160px 20px;
-}
-.about-description {
-  margin-left: 100px;
-}
-.about-section img {
   margin-left: 70px;
 }
