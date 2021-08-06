@@ -69,7 +69,7 @@ p {
   h1 {
     font-size: 45px;
     line-height: 2;
-    margin-top: -50px;
+    margin-top: -20px;
   }
   h2 {
     font-size: 44px;
@@ -86,7 +86,15 @@ p {
   .content-container h2 {
     line-height: 1.5;
   }
+  nav li {
+    font-size: 14px;
+    margin: 0px;
+  }
+  .mobile-logo {
+    margin-top: -8px;
+  }
 }
+
 .project-description {
   padding: 20px;
   margin-top: 40px;
@@ -117,4 +125,32 @@ p {
 .content a {
   text-decoration: none;
   color: var(--main-color);
+}
+.logo {
+  max-height: 48px;
+  margin-top: -10px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 20px;
+  margin-left: 15px;
+}
+nav ul {
+  padding: 0px;
+}
+nav {
+  padding: 20px 0;
+}
+nav a {
+  text-decoration: none;
+  color: var(--dark-color);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--main-color);
+}
+.container-navbar {
+  padding: 0 20px 0px 10px;
 }
