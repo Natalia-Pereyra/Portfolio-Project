@@ -61,6 +61,7 @@ p {
   line-height: 30px;
   color: var(--dark-color);
 }
+
 @media (max-width: 960px) {
   .project-description {
     text-align: center;
@@ -92,6 +93,12 @@ p {
   }
   .mobile-logo {
     margin-top: -8px;
+  }
+  .container-box h3 {
+    font-size: 18px;
+  }
+  .email-link {
+    font-size: 15px;
   }
 }
 
@@ -153,4 +160,43 @@ nav li.active a {
 }
 .container-navbar {
   padding: 0 20px 0px 10px;
+}
+footer {
+  background-color: var(--soft-color);
+  padding: 30px;
+  border-radius: 0px;
+}
+footer h3 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.email-link {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: var(--dark-color);
+  font-size: 24px;
+  font-family: var(--font-body);
+  margin: 78px 0 40px 0;
+}
+.social-links {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.social-links a {
+  color: var(--main-color);
+  width: 50px;
+  margin: 0 20px;
+  background-color: var(--soft-color);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.email-link:hover {
+  color: var(--main-color);
+}
+.social-links a:hover {
+  color: white;
+  background-color: var(--main-color);
+  transition: all 150ms ease-in-out;
 }

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["WyMiFNh"]); }
+
+__d("MP2PNUXRendererUtils",["ImmutableObject"],(function(a,b,c,d,e,f){"use strict";var g={getTransferFromAttachments:function(a){if(!a||!a.length)return null;a=a[0];var c;g.isShareAttachment(a)&&(c=a.story_attachment.target);c&&(c=new(b("ImmutableObject"))(c));return c},isShareAttachment:function(a){return!!(typeof a!=="string"&&a.story_attachment&&a.story_attachment.style_list&&a.story_attachment.style_list.indexOf("p2p_transfer")>=0)}};e.exports=g}),null);
