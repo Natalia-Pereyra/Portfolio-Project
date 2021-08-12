@@ -35,6 +35,9 @@ h3 {
 .btn-primary {
   background-color: var(--main-color);
   border: none;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 10px 20px;
 }
 .btn-primary:hover {
   background-color: white;
