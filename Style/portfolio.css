@@ -111,7 +111,7 @@ p {
 
 .project-description {
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 100px;
 }
 .content-container {
   max-width: 1000px;
@@ -215,4 +215,7 @@ footer h3 {
 .opensourced-link:hover {
   color: var(--main-color);
   font-weight: bold;
+}
+.weather.img {
+  padding-top: 100px;
 }
