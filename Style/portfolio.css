@@ -49,7 +49,7 @@ h3 {
   border: 1px solid var(--main-color);
 }
 h2 {
-  font-size: 62px;
+  font-size: 50px;
   font-weight: bold;
 }
 .btn-primary-outline {
@@ -107,6 +107,9 @@ p {
   .email-link {
     font-size: 15px;
   }
+  ul {
+    justify-content: center;
+  }
 }
 
 .project-description {
@@ -118,11 +121,11 @@ p {
   padding: 60px 20px;
 }
 .content-container h1 {
-  font-size: 56px;
-  line-height: 60px;
+  font-size: 50px;
+  line-height: 50px;
 }
 .content-container h2 {
-  font-size: 18px;
+  font-size: 24px;
   font-family: var(--font-body);
 }
 .content-container img {
@@ -152,6 +155,7 @@ nav li {
 }
 nav ul {
   padding: 0px;
+  font-family: var(--font-body);
 }
 nav {
   padding: 20px 0;
@@ -216,4 +220,28 @@ footer h3 {
   color: var(--main-color);
   font-weight: bold;
 }
-
+img {
+  width: 100%;
+  height: auto;
+}
+#logo-name {
+  color: var(--dark-color);
+}
+#logo-name:hover {
+  color: var(--main-color);
+}
+.my-picture {
+  padding-left: 80px;
+}
+.work-title {
+  padding-right: 80px;
+}
+.work-container {
+  margin-top: 100px;
+}
+.section-photography {
+  margin-top: -45px;
+}
+.img-photography {
+  margin-bottom: 15px;
+}
