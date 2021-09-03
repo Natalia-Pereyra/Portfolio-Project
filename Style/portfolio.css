@@ -245,3 +245,6 @@ img {
 .img-photography {
   margin-bottom: 15px;
 }
+.front-end-h2 {
+  font-family: var(--font-body);
+}
