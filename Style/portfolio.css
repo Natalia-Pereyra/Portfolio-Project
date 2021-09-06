@@ -232,6 +232,7 @@ img {
 }
 .my-picture {
   padding-left: 80px;
+  margin-top: 10px;
 }
 .work-title {
   padding-right: 80px;
@@ -247,4 +248,7 @@ img {
 }
 .front-end-h2 {
   font-family: var(--font-body);
+}
+.about-row {
+  margin-bottom: 100px;
 }
