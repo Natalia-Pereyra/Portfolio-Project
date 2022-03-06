@@ -68,50 +68,6 @@ p {
   line-height: 30px;
   color: var(--dark-color);
 }
-
-@media (max-width: 960px) {
-  .project-description {
-    text-align: center;
-    padding: 0;
-  }
-  h1 {
-    font-size: 45px;
-    line-height: 2;
-    margin-top: -20px;
-  }
-  h2 {
-    font-size: 44px;
-  }
-  .header {
-    padding: 80px 20px;
-  }
-  .content-container {
-    text-align: center;
-  }
-  .content-container img {
-    margin-top: 65px;
-  }
-  .content-container h2 {
-    line-height: 1.5;
-  }
-  nav li {
-    font-size: 14px;
-    margin: 0px;
-  }
-  .mobile-logo {
-    margin-top: -8px;
-  }
-  .container-box h3 {
-    font-size: 18px;
-  }
-  .email-link {
-    font-size: 15px;
-  }
-  ul {
-    justify-content: center;
-  }
-}
-
 .project-description {
   padding: 20px;
   margin-top: 100px;
@@ -127,6 +83,7 @@ p {
 .content-container h2 {
   font-size: 24px;
   font-family: var(--font-body);
+  margin-bottom: 50px;
 }
 .content-container img {
   width: 400px;
@@ -159,6 +116,8 @@ nav ul {
 }
 nav {
   padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
 }
 nav a {
   text-decoration: none;
@@ -254,4 +213,67 @@ img {
 }
 #contact-container {
   margin-bottom: 200px;
+}
+
+/*   @media     */
+
+@media (max-width: 960px) {
+  .about-description {
+    padding: 0 30px;
+  }
+  nav {
+    justify-content: center;
+  }
+  nav li {
+    padding: 10px;
+  }
+  .project-description {
+    text-align: center;
+    padding: 0;
+  }
+  h1 {
+    font-size: 45px;
+    line-height: 2;
+    margin-top: -20px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .header {
+    padding: 80px 20px;
+  }
+  .content-container {
+    text-align: center;
+    padding-bottom: 1px;
+  }
+  .content-container img {
+    margin-top: 65px;
+  }
+  .content-container h2 {
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+  nav li {
+    font-size: 14px;
+    margin: 0px;
+  }
+  .mobile-logo {
+    margin-top: -8px;
+  }
+  .container-box h3 {
+    font-size: 18px;
+  }
+  .email-link {
+    font-size: 15px;
+  }
+  ul {
+    justify-content: center;
+  }
+  .my-picture {
+    padding: 0;
+  }
+  .work-title {
+    padding: 0;
+    margin-top: 10px;
+  }
 }
